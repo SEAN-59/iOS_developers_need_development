@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A77A996429A0FFDB00A5B716 /* KeyInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A996329A0FFDB00A5B716 /* KeyInput.swift */; };
 		A7EE07C529A0F8B9007AA0A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EE07C429A0F8B9007AA0A3 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A77A996229A0FCF600A5B716 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A77A996329A0FFDB00A5B716 /* KeyInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInput.swift; sourceTree = "<group>"; };
 		A7EE07C129A0F8B9007AA0A3 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7EE07C429A0F8B9007AA0A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,9 +41,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A77A996529A134E900A5B716 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				A77A996329A0FFDB00A5B716 /* KeyInput.swift */,
+				A7EE07C429A0F8B9007AA0A3 /* main.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 		A7EE07B829A0F8B9007AA0A3 = {
 			isa = PBXGroup;
 			children = (
+				A77A996229A0FCF600A5B716 /* README.md */,
 				A7EE07C329A0F8B9007AA0A3 /* CodingTest */,
 				A7EE07C229A0F8B9007AA0A3 /* Products */,
 			);
@@ -57,7 +70,7 @@
 		A7EE07C329A0F8B9007AA0A3 /* CodingTest */ = {
 			isa = PBXGroup;
 			children = (
-				A7EE07C429A0F8B9007AA0A3 /* main.swift */,
+				A77A996529A134E900A5B716 /* Public */,
 			);
 			path = CodingTest;
 			sourceTree = "<group>";
@@ -120,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77A996429A0FFDB00A5B716 /* KeyInput.swift in Sources */,
 				A7EE07C529A0F8B9007AA0A3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
