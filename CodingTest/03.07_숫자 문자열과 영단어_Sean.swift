@@ -7,7 +7,7 @@
 
 import Foundation
 
-// 시작 23:40 -  종료 00: 25
+// 시작 23:40 -  종료 00:25
 func solution(_ s:String) -> Int {
     var intArr = [Int]()
     var checkStr = ""
