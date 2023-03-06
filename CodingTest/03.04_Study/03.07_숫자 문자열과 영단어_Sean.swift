@@ -51,7 +51,7 @@ func solution(_ s:String) -> Int {
                 intArr.append(9)
                 checkStr = ""
             default:
-                print("Next2")
+                print("Next")
             }
         }
     }
