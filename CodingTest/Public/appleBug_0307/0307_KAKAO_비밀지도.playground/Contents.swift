@@ -3,44 +3,44 @@ import Foundation
 func solution(_ n:Int, _ arr1:[Int], _ arr2:[Int]) -> [String] {
     var answer: [String] = []
     
-    var radixArr1 = [String]()
-    var radixArr2 = [String]()
-    
-    for i in arr1 {
-        var radix2 = String(i, radix: 2, uppercase: true)
-        if radix2.count != n {
-            let count = n - radix2.count
-            radix2 = String.init(repeating: "0", count: count) + radix2
-        }
-        radixArr1.append(radix2)
-    }
-    
-    for i in arr2 {
-        var radix2 = String(i, radix: 2, uppercase: true)
-        if radix2.count != n {
-            let count = n - radix2.count
-            radix2 = String.init(repeating: "0", count: count) + radix2
-        }
-        radixArr2.append(radix2)
-    }
-    
-//    let radixArr1 = arr1.map {
-//        var radix2 = String($0, radix: 2, uppercase: true)
+//    var radixArr1 = [String]()
+//    var radixArr2 = [String]()
+//
+//    for i in arr1 {
+//        var radix2 = String(i, radix: 2, uppercase: true)
 //        if radix2.count != n {
 //            let count = n - radix2.count
 //            radix2 = String.init(repeating: "0", count: count) + radix2
 //        }
-//        return radix2
+//        radixArr1.append(radix2)
 //    }
-    
-//    let radixArr2 = arr2.map {
-//        var radix2 = String($0, radix: 2, uppercase: true)
+//
+//    for i in arr2 {
+//        var radix2 = String(i, radix: 2, uppercase: true)
 //        if radix2.count != n {
 //            let count = n - radix2.count
 //            radix2 = String.init(repeating: "0", count: count) + radix2
 //        }
-//        return radix2
+//        radixArr2.append(radix2)
 //    }
+    
+    let radixArr1 = arr1.map {
+        var radix2 = String($0, radix: 2, uppercase: true)
+        if radix2.count != n {
+            let count = n - radix2.count
+            radix2 = String.init(repeating: "0", count: count) + radix2
+        }
+        return radix2
+    }
+    
+    let radixArr2 = arr2.map {
+        var radix2 = String($0, radix: 2, uppercase: true)
+        if radix2.count != n {
+            let count = n - radix2.count
+            radix2 = String.init(repeating: "0", count: count) + radix2
+        }
+        return radix2
+    }
     
     print(radixArr1, radixArr2)
 

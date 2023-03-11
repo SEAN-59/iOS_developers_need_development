@@ -11,8 +11,10 @@ func solution(_ s:String) -> Int {
     let sArray = Array(s)
     
     for (idx, cha) in sArray.enumerated() {
+        
+        print(idx, cha)
         print(sArray[startIdx...endIdx])
-        if let test = Int(String(cha)) {
+        if let _ = Int(String(cha)) {
             result += String(cha)
             startIdx = idx+1
             endIdx = idx+1
