@@ -7,7 +7,7 @@
 
 import Foundation
 // START: 04:00
-// END  : 05:00
+// END  : 05:00 
 func solution(_ numbers:[Int], _ hand:String) -> String {
     var result: String = ""
     var leftHand: Int = -1
