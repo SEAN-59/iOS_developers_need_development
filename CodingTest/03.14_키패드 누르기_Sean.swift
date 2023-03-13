@@ -55,6 +55,7 @@ func solution(_ numbers:[Int], _ hand:String) -> String {
                     result += "L"
                 }
             }
+            
             print(result)
         }
     }
