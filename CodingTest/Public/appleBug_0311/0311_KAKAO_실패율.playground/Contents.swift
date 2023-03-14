@@ -20,6 +20,7 @@ func solution(_ N:Int, _ stages:[Int]) -> [Int] {
     print(stageFailDict)
     print(stageChallengeDict)
     print("+++++++")
+    
     // 실패횟수, 도전횟수 딕셔너리 제작
     for stage in stages {
         stageFailDict[stage]! += 1
@@ -68,9 +69,7 @@ func solution(_ N:Int, _ stages:[Int]) -> [Int] {
 
     print("=========")
     
-    
-    
-    return sortedResult
+    return [0]
 }
 
 solution(5,[2, 1, 2, 6, 2, 4, 3, 3]) //[3,4,2,1,5]
@@ -79,7 +78,6 @@ solution(3,[1,1,1,1,1]) //[4,1,2,3]
 
 import Foundation
 
-// 0311 12:11 ~
 func solution2(_ N:Int, _ stages:[Int]) -> [Int] {
     // 실패율을 구하는 코드
     // 실패율 : 스테이지 도달햇지만 클리어못한 수 / 스테이지 도달한 수
@@ -130,8 +128,6 @@ func solution2(_ N:Int, _ stages:[Int]) -> [Int] {
     print(sortedResult)
 
     print("=========")
-    
-    
     
     return sortedResult
 }

@@ -9,7 +9,6 @@ func solution(_ dartResult:String) -> Int {
     // *과#도 중첩이 가능함
     // S,D,T는 점수마다 하나씩존재
     // *,# 은 점수마다 둘중하나만 가능, 존재하지 않을 수 있음
-    
     let dartArray = Array(dartResult)
     print("dartArray", dartArray)
     // 10을 처리 할 수 있도록 어레이 재구성
