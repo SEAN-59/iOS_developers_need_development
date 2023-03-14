@@ -28,6 +28,7 @@
 		6F0CD65329B6DC0800F497FC /* 230307보물지도.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230307보물지도.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6F0CD65629BC280F00F497FC /* 230311실패율.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230311실패율.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6F0CD65729BC563000F497FC /* 230311다트게임.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230311다트게임.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6F7694CC29C014CC00AF2F0D /* 230314크레인.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230314크레인.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A77A996229A0FCF600A5B716 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A77A996329A0FFDB00A5B716 /* KeyInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInput.swift; sourceTree = "<group>"; };
 		A7EE07C129A0F8B9007AA0A3 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +49,7 @@
 		6F0CD65129B6C9DA00F497FC /* CodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				6F7694CB29C014BA00AF2F0D /* 230314 */,
 				6F0CD65529BC271000F497FC /* 230311 */,
 				6F0CD65429BC270400F497FC /* 230307 */,
 			);
@@ -70,6 +72,14 @@
 				6F0CD65729BC563000F497FC /* 230311다트게임.playground */,
 			);
 			path = 230311;
+			sourceTree = "<group>";
+		};
+		6F7694CB29C014BA00AF2F0D /* 230314 */ = {
+			isa = PBXGroup;
+			children = (
+				6F7694CC29C014CC00AF2F0D /* 230314크레인.playground */,
+			);
+			path = 230314;
 			sourceTree = "<group>";
 		};
 		A77A996529A134E900A5B716 /* Public */ = {
