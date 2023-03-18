@@ -1,9 +1,10 @@
 import Foundation
 
 func solution(_ dartResult:String) -> Int {
+
     let numList = dartResult.split { $0.isLetter || $0 == "#" || $0 == "*" }.map { Int($0)! }
     let optionList = dartResult.split { $0.isNumber }
-    
+ 
     var points = [0, 0, 0]
     
     for i in 0...2 {
@@ -38,3 +39,5 @@ func solution(_ dartResult:String) -> Int {
     
     return answer
 }
+
+solution("10S3D*4T")

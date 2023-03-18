@@ -24,12 +24,12 @@ func solution(_ N:Int, _ stages:[Int]) -> [Int] {
     }
     
     // 시간초과 나는 코드...
-//     var failArr = [Int: Double]()
-
+//     var failure = [Int: Double]()
+//
 //     for i in 1...N {
 //         let players = stages.filter({ $0 >= i }).count
 //         let clear = stages.filter({ $0 > i }).count
-//         failArr[i] =  Double(players - clear) / Double(players)
+//         failure[i] =  Double(players - clear) / Double(players)
 //     }
     
     let sortArr = failure.sorted(by: <).sorted(by: { $0.1 > $1.1 })

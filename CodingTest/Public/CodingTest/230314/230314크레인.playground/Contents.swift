@@ -22,8 +22,8 @@ func solution(_ board:[[Int]], _ moves:[Int]) -> Int {
     var crainedItems = [Int]()
     for row in moves {
         if let outputItem = intArr[row - 1].popLast() {
-            print(intArr)
-            print(outputItem)
+//            print(intArr)
+//            print(outputItem)
             if crainedItems.last == outputItem {
                 answer += 2
                 crainedItems.popLast()
