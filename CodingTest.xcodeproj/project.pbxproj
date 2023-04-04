@@ -32,6 +32,8 @@
 		6F7694CD29C02E9B00AF2F0D /* 230314키패드.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230314키패드.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6F7694CF29C5992200AF2F0D /* 230318신규아이디.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230318신규아이디.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6F7694D029C5995500AF2F0D /* 230318mbti.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 230318mbti.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6F7694D229DC2C7600AF2F0D /* 230404개인정보.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230404개인정보.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6F7694D329DC2CFD00AF2F0D /* 230404신고결과받기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230404신고결과받기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A77A996229A0FCF600A5B716 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A77A996329A0FFDB00A5B716 /* KeyInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInput.swift; sourceTree = "<group>"; };
 		A7EE07C129A0F8B9007AA0A3 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +54,7 @@
 		6F0CD65129B6C9DA00F497FC /* CodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				6F7694D129DC2C6600AF2F0D /* 230404 */,
 				6F7694CE29C598F100AF2F0D /* 230318 */,
 				6F7694CB29C014BA00AF2F0D /* 230314 */,
 				6F0CD65529BC271000F497FC /* 230311 */,
@@ -94,6 +97,15 @@
 				6F7694D029C5995500AF2F0D /* 230318mbti.playground */,
 			);
 			path = 230318;
+			sourceTree = "<group>";
+		};
+		6F7694D129DC2C6600AF2F0D /* 230404 */ = {
+			isa = PBXGroup;
+			children = (
+				6F7694D229DC2C7600AF2F0D /* 230404개인정보.playground */,
+				6F7694D329DC2CFD00AF2F0D /* 230404신고결과받기.playground */,
+			);
+			path = 230404;
 			sourceTree = "<group>";
 		};
 		A77A996529A134E900A5B716 /* Public */ = {
