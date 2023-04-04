@@ -54,6 +54,7 @@ func solution(_ new_id:String) -> String {
         }
     }
     print(sixthStepId)
+    
     // 7단계 : new_id의 길이가 2자 이하라면, new_id의 마지막 문자를 new_id의 길이가 3이 될 때까지 반복해서 끝에 붙입니다.
     var lastStepId = sixthStepId
     let lastStepIdCount = lastStepId.count
@@ -77,3 +78,6 @@ solution("........abc........") // "abc"
 solution("........a.b.c........") // "abc"
 solution("........0.b.c........") // "abc"
 
+
+
+"".replacingOccurrences(of: " ", with: "ccc")

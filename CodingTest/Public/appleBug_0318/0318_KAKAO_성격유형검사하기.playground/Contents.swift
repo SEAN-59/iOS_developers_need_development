@@ -67,11 +67,7 @@ func solution(_ survey:[String], _ choices:[Int]) -> String {
         }
     }
     print(indicators)
-//
-//    zip(survey, choices).map {
-//
-//        $0.0.prefix(0),
-//    }
+    
     var result = ""
     if indicators["RT"]! >= 0 {
         result += "R"
