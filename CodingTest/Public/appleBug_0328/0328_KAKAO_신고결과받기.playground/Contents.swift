@@ -22,6 +22,7 @@ func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
         banDict[id] = 0
     }
     
+    
     // 1. [유저: 신고당한 횟수] 딕셔너리 제작
     for re in reportSet {
 //        let reporter = re.components(separatedBy: " ")[0] // 신고자
@@ -29,8 +30,8 @@ func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
         reportDict[reported]! += 1
     }
     print(reportDict)
-    // 2. [신고자: 정지 먹인 횟수] 의 딕셔너리 제작
     
+    // 2. [신고자: 정지 먹인 횟수] 의 딕셔너리 제작
     for re in reportSet {
         let reporter = re.components(separatedBy: " ")[0] // 신고자
         let reported = re.components(separatedBy: " ")[1] // 신고당한 자
@@ -44,8 +45,6 @@ func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
     for id in id_list {
         result.append(banDict[id]!)
     }
-    
-    
     
     return result
 }
