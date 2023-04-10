@@ -40,6 +40,8 @@
 		7CF8E97529C051560046C2C3 /* 0314_KAKAO_키패드누르기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0314_KAKAO_키패드누르기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7CF8E97629C05B410046C2C3 /* 0314_KAKAO_크레인인형뽑기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0314_KAKAO_크레인인형뽑기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7CFD815229E137D700B4F609 /* 0408_KAKAO_캐시.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0408_KAKAO_캐시.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7CFD815A29E43C9200B4F609 /* 0411_KAKAO_튜플.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0411_KAKAO_튜플.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7CFD815B29E43CBA00B4F609 /* 0411_KAKAO_뉴스 클러스터링.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0411_KAKAO_뉴스 클러스터링.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A77A996229A0FCF600A5B716 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A77A996329A0FFDB00A5B716 /* KeyInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInput.swift; sourceTree = "<group>"; };
 		A7EE07C129A0F8B9007AA0A3 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +124,15 @@
 			path = appleBug_0408;
 			sourceTree = "<group>";
 		};
+		7CFD815929E43C6800B4F609 /* appleBug_0411 */ = {
+			isa = PBXGroup;
+			children = (
+				7CFD815A29E43C9200B4F609 /* 0411_KAKAO_튜플.playground */,
+				7CFD815B29E43CBA00B4F609 /* 0411_KAKAO_뉴스 클러스터링.playground */,
+			);
+			path = appleBug_0411;
+			sourceTree = "<group>";
+		};
 		A77A996529A134E900A5B716 /* Public */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +143,7 @@
 				7C8253D129C572CC008F9A32 /* appleBug_0318 */,
 				7C77BDCC29D19316007E522E /* appleBug_0328 */,
 				7CFD815129E137AC00B4F609 /* appleBug_0408 */,
+				7CFD815929E43C6800B4F609 /* appleBug_0411 */,
 				A77A996329A0FFDB00A5B716 /* KeyInput.swift */,
 				A7EE07C429A0F8B9007AA0A3 /* main.swift */,
 			);
