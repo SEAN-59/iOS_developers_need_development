@@ -19,7 +19,9 @@ func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
     let finalReport = reportSet.map { $0.components(separatedBy: " ") }
 
     //누가 얼만큼 신고당했는지
-    finalReport.forEach { reportedMap[$0[1]]! += 1 }
+    finalReport.forEach {
+        reportedMap[$0[1]]! += 1
+    }
 
     //k회 이상 신고당한 사람에게 메일 +1
     // reportedMap.forEach {

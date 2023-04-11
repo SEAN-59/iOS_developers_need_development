@@ -28,6 +28,8 @@
 		6F0CD65329B6DC0800F497FC /* 230307보물지도.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230307보물지도.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6F0CD65629BC280F00F497FC /* 230311실패율.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230311실패율.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6F0CD65729BC563000F497FC /* 230311다트게임.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230311다트게임.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6F5396EC29E5860200758B49 /* 230411뉴스클러스트링.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230411뉴스클러스트링.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6F5396ED29E586FB00758B49 /* 230411튜플.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230411튜플.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6F7694CC29C014CC00AF2F0D /* 230314크레인.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230314크레인.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6F7694CD29C02E9B00AF2F0D /* 230314키패드.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230314키패드.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6F7694CF29C5992200AF2F0D /* 230318신규아이디.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "230318신규아이디.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -54,6 +56,7 @@
 		6F0CD65129B6C9DA00F497FC /* CodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				6F5396EB29E585EA00758B49 /* 230411 */,
 				6F7694D129DC2C6600AF2F0D /* 230404 */,
 				6F7694CE29C598F100AF2F0D /* 230318 */,
 				6F7694CB29C014BA00AF2F0D /* 230314 */,
@@ -79,6 +82,15 @@
 				6F0CD65729BC563000F497FC /* 230311다트게임.playground */,
 			);
 			path = 230311;
+			sourceTree = "<group>";
+		};
+		6F5396EB29E585EA00758B49 /* 230411 */ = {
+			isa = PBXGroup;
+			children = (
+				6F5396EC29E5860200758B49 /* 230411뉴스클러스트링.playground */,
+				6F5396ED29E586FB00758B49 /* 230411튜플.playground */,
+			);
+			path = 230411;
 			sourceTree = "<group>";
 		};
 		6F7694CB29C014BA00AF2F0D /* 230314 */ = {

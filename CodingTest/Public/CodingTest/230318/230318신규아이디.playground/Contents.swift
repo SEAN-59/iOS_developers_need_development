@@ -16,7 +16,7 @@ func solution(_ new_id:String) -> String {
     while step2.contains("..") {
         step2 = step2.replacingOccurrences(of: "..", with: ".")
     }
-    
+        
     //step4 : .이 처음과 끝이면 제거.
     let step4 = step2.trimmingCharacters(in: ["."])
     
@@ -60,3 +60,5 @@ extension String {
         }
     }
 }
+
+solution(".....")

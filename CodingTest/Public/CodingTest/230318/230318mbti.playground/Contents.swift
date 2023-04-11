@@ -20,7 +20,7 @@ func solution(_ survey:[String], _ choices:[Int]) -> String {
     }
     
     var mbti = ""
-    
+        
     mbti += (rt.r >= rt.t) ? "R" : "T"
     mbti += (cf.c >= cf.f) ? "C" : "F"
     mbti += (jm.j >= jm.m) ? "J" : "M"
