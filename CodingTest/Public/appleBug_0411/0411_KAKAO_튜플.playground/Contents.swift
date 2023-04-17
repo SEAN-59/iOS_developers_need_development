@@ -3,12 +3,14 @@ import Foundation
 // 21:50 ~ 22:05
 func solution(_ s:String) -> [Int] {
     // 텍스트 나눌수 있도록 전처리
-    var s = s.replacingOccurrences(of: "{{", with: "")
-    s = s.replacingOccurrences(of: "}}", with: "")
-
+    let s = s.replacingOccurrences(of: "{{", with: "")
+        .replacingOccurrences(of: "}}", with: "")
     print(s)
+    
     // 텍스트 배열로 분리
     let sepString = s.components(separatedBy: "},{")
+    print(sepString)
+    
     // 이중배열로 변환 및 작은 순으로 정렬
     let sortedSepArray = sepString.map {
         $0.components(separatedBy: ",")
@@ -19,14 +21,13 @@ func solution(_ s:String) -> [Int] {
     // 작은 순서대로 result에 값이 없으면 추가
     for sepArray in sortedSepArray {
         for sep in sepArray {
-            if result.contains { $0 == sep } {
-//                result.append(sep)
-            } else {
+            if !result.contains(sep) {
                 result.append(sep)
             }
         }
     }
     
+    print(result)
     return result.map { Int($0) ?? 0 }
 }
 

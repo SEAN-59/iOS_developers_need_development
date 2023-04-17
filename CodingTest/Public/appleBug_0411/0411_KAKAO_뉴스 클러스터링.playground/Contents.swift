@@ -7,7 +7,7 @@ func solution(_ str1:String, _ str2:String) -> Int {
     // str1, str2 를 두글자씩 끊어서 다중집합으로 만들고 자카드 유사도 확인
     // 유사도에 65536을 곱하고 버림
     
-    // 1.str을 다중집합으로 만듬[^0-9a-z._-]
+    // 1.str을 다중집합으로 만듬
     let str1Array = Array(str1)
     let str2Array = Array(str2)
 //    print(str1Array, str2Array)
@@ -27,13 +27,18 @@ func solution(_ str1:String, _ str2:String) -> Int {
         }
     }
     
+    print(multiArray1, multiArray2)
+    
+    // 2.다중집합이 둘다 비었으면 65536
     if multiArray1.isEmpty && multiArray2.isEmpty {
         return 65536
     }
     
+    // 3. 다중집합 정렬
     multiArray1.sort()
     multiArray2.sort()
     
+    // 4.중복에 관련 처리
     var dupCase1 = 1
     if multiArray1.count > 0 {
         for idx in 0 ..< multiArray1.count - 1 {
@@ -78,9 +83,9 @@ func solution(_ str1:String, _ str2:String) -> Int {
 //
 //    let intersectionCount = Double(intersection(array1: multiArray1, array2: multiArray2).count)
 //    let unionCount = Double(union(array1: multiArray1, array2: multiArray2).count)
-////
+
     print(intersectionCount, unionCount, intersectionCount/unionCount)
-    return Int(floor(intersectionCount/unionCount * 65536))
+    return Int(intersectionCount/unionCount * 65536)
 }
 
 func union(array1: [String], array2: [String]) -> [String] {
@@ -125,5 +130,4 @@ solution("abab", "baba") // 32768
 solution("bb", "aa") //
 solution("bbbbbbb", "aaaaaa") //
 solution("E=M*C^2", "aaaa") // 65536
-
 
