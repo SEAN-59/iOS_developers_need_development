@@ -1,5 +1,5 @@
 import Foundation
-// 18:04~
+// 18:04~ 18:20
 func solution(_ n:Int, _ k:Int) -> Int {
     /*
         0P0 처럼 소수 양쪽에 0이 있는 경우
@@ -10,6 +10,7 @@ func solution(_ n:Int, _ k:Int) -> Int {
     
     let radixNumber = String(n, radix: k)
     print(radixNumber)
+    
     
     let sepNumber = radixNumber.components(separatedBy: "0").filter { $0 != "" }
     
@@ -37,3 +38,5 @@ func isPrime(_ n: Int) -> Bool {
 solution(437674, 3) == 3
 solution(110011, 10) == 2
 solution(999999, 10) == 0
+solution(36, 3)
+solution(121, 10)
