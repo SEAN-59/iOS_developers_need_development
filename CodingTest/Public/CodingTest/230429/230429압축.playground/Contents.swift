@@ -15,13 +15,16 @@ func solution(_ msg:String) -> [Int] {
         if dictionary[wc] != nil {
             w = wc
         } else {
-            result.append(dictionary[w]!)
-            dictionary[wc] = index + 1
-            index += 1
+            if let idx = dictionary[w] {
+               result.append(idx)
+            }
+            dictionary[wc] = dictionary.count + 1
             w = String(c)
         }
     }
-    result.append(dictionary[w]!)
+    if let idx = dictionary[w] {
+       result.append(idx)
+    }
     return result
 }
 
