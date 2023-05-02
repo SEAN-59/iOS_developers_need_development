@@ -15,7 +15,7 @@ func solution(_ n:Int, _ t:Int, _ m:Int, _ p:Int) -> String {
     var testNumberList = [Character]()
     // 불러야할 숫자리스트 최대갯수만큼 미리생성
     while testNumberList.count <= t*m {
-        print(Array(String(number, radix: n)))
+//        print(Array(String(number, radix: n)))
         let radixNumber = Array(String(number, radix: n))
         testNumberList.append(contentsOf: radixNumber)
         number += 1
@@ -25,11 +25,9 @@ func solution(_ n:Int, _ t:Int, _ m:Int, _ p:Int) -> String {
     // stride를 통해 튜브의 순서만 가져옴
     var result = ""
     for i in stride(from: p-1, to: t*m, by: m) {
+        print("stride :" , i)
         result += String(testNumberList[i]).uppercased()
     }
-    
-
-
 
     return result
 }
@@ -40,7 +38,7 @@ func solution(_ n:Int, _ t:Int, _ m:Int, _ p:Int) -> String {
 //n    t    m    p    result
 //solution(2, 4, 2, 1) ==    "0111"
 //solution(16, 16, 2, 1) ==   "02468ACE11111111"
-solution(16, 16, 2, 2) ==   "13579BDF01234567"
-solution(16, 30, 2, 2) ==   "13579BDF0123456789ABCDEF012345"
-//solution(16, 16, 3, 2)
+//solution(16, 16, 2, 2) ==   "13579BDF01234567"
+//solution(16, 30, 2, 2) ==   "13579BDF0123456789ABCDEF012345"
+solution(16, 16, 3, 2)
 
