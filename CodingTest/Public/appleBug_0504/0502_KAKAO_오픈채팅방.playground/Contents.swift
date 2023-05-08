@@ -30,6 +30,7 @@ func solution(_ record:[String]) -> [String] {
     }
     
     print(result)
+    print(uuidDict)
     
     var newResult: [String] = []
     for i in result {

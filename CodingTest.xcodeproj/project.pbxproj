@@ -36,6 +36,8 @@
 		7C33F2FB29F6980C00F3E994 /* 0425_KAKAO_압축.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0425_KAKAO_압축.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7C77BDCA29D192D6007E522E /* 0328_KAKAO_개인정보수집유효기간.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0328_KAKAO_개인정보수집유효기간.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7C77BDCB29D19309007E522E /* 0328_KAKAO_신고결과받기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0328_KAKAO_신고결과받기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7C7D06F52A0926DA00F6265F /* 0510_KAKAO_파일명정렬.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0510_KAKAO_파일명정렬.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7C7D06F62A0926ED00F6265F /* 0510_KAKAO_ 프렌즈4블록.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0510_KAKAO_ 프렌즈4블록.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7C8253CF29C57298008F9A32 /* 0318_KAKAO_신규아이디추천.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0318_KAKAO_신규아이디추천.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7C8253D029C572C0008F9A32 /* 0318_KAKAO_성격유형검사하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0318_KAKAO_성격유형검사하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7CBBCB4C29BC28040020E727 /* 0311_KAKAO_실패율.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0311_KAKAO_실패율.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -89,6 +91,24 @@
 				7C77BDCB29D19309007E522E /* 0328_KAKAO_신고결과받기.playground */,
 			);
 			path = appleBug_0328;
+			sourceTree = "<group>";
+		};
+		7C7D06F42A0926B600F6265F /* appleBug_0504 */ = {
+			isa = PBXGroup;
+			children = (
+				7C0E6F2029FFD0F00011D906 /* 0502_KAKAO_주차 요금 계산.playground */,
+				7C0E6F232A011C280011D906 /* 0502_KAKAO_오픈채팅방.playground */,
+			);
+			path = appleBug_0504;
+			sourceTree = "<group>";
+		};
+		7C7D06F72A09271800F6265F /* appleBug_0510 */ = {
+			isa = PBXGroup;
+			children = (
+				7C7D06F52A0926DA00F6265F /* 0510_KAKAO_파일명정렬.playground */,
+				7C7D06F62A0926ED00F6265F /* 0510_KAKAO_ 프렌즈4블록.playground */,
+			);
+			path = appleBug_0510;
 			sourceTree = "<group>";
 		};
 		7C8253D129C572CC008F9A32 /* appleBug_0318 */ = {
@@ -168,10 +188,10 @@
 				7CFD815929E43C6800B4F609 /* appleBug_0411 */,
 				7CE58FE729ED42F100998674 /* appleBug_0418 */,
 				7C33F2FC29F6981300F3E994 /* appleBug_0425 */,
+				7C7D06F42A0926B600F6265F /* appleBug_0504 */,
+				7C7D06F72A09271800F6265F /* appleBug_0510 */,
 				A77A996329A0FFDB00A5B716 /* KeyInput.swift */,
 				A7EE07C429A0F8B9007AA0A3 /* main.swift */,
-				7C0E6F2029FFD0F00011D906 /* 0502_KAKAO_주차 요금 계산.playground */,
-				7C0E6F232A011C280011D906 /* 0502_KAKAO_오픈채팅방.playground */,
 			);
 			path = Public;
 			sourceTree = "<group>";
