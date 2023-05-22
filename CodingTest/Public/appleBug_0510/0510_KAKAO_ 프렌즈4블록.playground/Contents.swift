@@ -65,18 +65,18 @@ func solution(_ m:Int, _ n:Int, _ board:[String]) -> Int {
     return result
 }
 
-solution(4, 5, ["CCBDE",
-                "AAADE",
-                "AAABF",
-                "CCBBF"])
+//solution(4, 5, ["CCBDE",
+//                "AAADE",
+//                "AAABF",
+//                "CCBBF"])
 solution(6, 6, ["TTTANT", "RRFACC", "RRRFCC", "TRRRAA", "TTMMMF", "TMMTTJ"])
-solution(2, 2, ["TT", "RR"])
-solution(2, 2, ["TT", "TT"])
-solution(3, 3, ["TTT", "TTT", "TTT"])
-solution(4, 4, ["TTTT", "TTTT", "TTTT", "TTTT"])
-solution(4, 5, ["CCBDE",
-                "AAADE",
-                "AAABD",
-                "CCBBD"])
+//solution(2, 2, ["TT", "RR"])
+//solution(2, 2, ["TT", "TT"])
+//solution(3, 3, ["TTT", "TTT", "TTT"])
+//solution(4, 4, ["TTTT", "TTTT", "TTTT", "TTTT"])
+//solution(4, 5, ["CCBDE",
+//                "AAADE",
+//                "AAABD",
+//                "CCBBD"])
 
 //solution(30, 30, Array(repeating: String(repeating: "T", count: 30), count: 30))

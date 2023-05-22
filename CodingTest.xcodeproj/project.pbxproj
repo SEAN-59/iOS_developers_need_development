@@ -34,6 +34,9 @@
 		7C1DECB329B2402400474EF9 /* 0304_직사각형별찍기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0304_직사각형별찍기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7C33F2FA29F697F800F3E994 /* 0425_KAKAO_n진수 게임 .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0425_KAKAO_n진수 게임 .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7C33F2FB29F6980C00F3E994 /* 0425_KAKAO_압축.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0425_KAKAO_압축.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7C3710872A17575F00CC8969 /* KAKAO_0520_두큐합같게만들기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "KAKAO_0520_두큐합같게만들기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7C3710882A17576400CC8969 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = text; name = Sources; path = ../../KAKAO_0520.playground/Sources; sourceTree = "<group>"; };
+		7C3710892A17579000CC8969 /* KAKAO_0520_메뉴리뉴얼.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "KAKAO_0520_메뉴리뉴얼.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7C77BDCA29D192D6007E522E /* 0328_KAKAO_개인정보수집유효기간.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0328_KAKAO_개인정보수집유효기간.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7C77BDCB29D19309007E522E /* 0328_KAKAO_신고결과받기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0328_KAKAO_신고결과받기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7C7D06F52A0926DA00F6265F /* 0510_KAKAO_파일명정렬.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0510_KAKAO_파일명정렬.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -82,6 +85,15 @@
 				7C33F2FB29F6980C00F3E994 /* 0425_KAKAO_압축.playground */,
 			);
 			path = appleBug_0425;
+			sourceTree = "<group>";
+		};
+		7C37108A2A17579A00CC8969 /* appleBug_0520 */ = {
+			isa = PBXGroup;
+			children = (
+				7C3710872A17575F00CC8969 /* KAKAO_0520_두큐합같게만들기.playground */,
+				7C3710892A17579000CC8969 /* KAKAO_0520_메뉴리뉴얼.playground */,
+			);
+			path = appleBug_0520;
 			sourceTree = "<group>";
 		};
 		7C77BDCC29D19316007E522E /* appleBug_0328 */ = {
@@ -190,6 +202,8 @@
 				7C33F2FC29F6981300F3E994 /* appleBug_0425 */,
 				7C7D06F42A0926B600F6265F /* appleBug_0504 */,
 				7C7D06F72A09271800F6265F /* appleBug_0510 */,
+				7C37108A2A17579A00CC8969 /* appleBug_0520 */,
+				7C3710882A17576400CC8969 /* Sources */,
 				A77A996329A0FFDB00A5B716 /* KeyInput.swift */,
 				A7EE07C429A0F8B9007AA0A3 /* main.swift */,
 			);

@@ -24,6 +24,7 @@ func solution(_ files:[String]) -> [String] {
     return files.sorted {
         guard let firstHeaderRange = $0.range(of: headerCheckRegex, options: .regularExpression),
               let secondHeaderRange = $1.range(of: headerCheckRegex, options: .regularExpression) else { return false }
+        print($0[firstHeaderRange], $1[secondHeaderRange])
         if $0[firstHeaderRange].lowercased() == $1[secondHeaderRange].lowercased() {
             guard let firstNumberRange = $0.range(of: numberCheckRegex, options: .regularExpression),
                   let secondNumberRange = $1.range(of: numberCheckRegex, options: .regularExpression) else { return false }
@@ -41,3 +42,4 @@ solution(["img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.
 solution(["F-5 Freedom Fighter", "B-50 Superfortress", "A-10 Thunderbolt II", "F-14 Tomcat"])
 
 solution(["foo9.txt", "foo010bar020.zip", "F-15"])
+
