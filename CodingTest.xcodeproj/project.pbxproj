@@ -44,6 +44,7 @@
 		7C8253CF29C57298008F9A32 /* 0318_KAKAO_신규아이디추천.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0318_KAKAO_신규아이디추천.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7C8253D029C572C0008F9A32 /* 0318_KAKAO_성격유형검사하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0318_KAKAO_성격유형검사하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7C98D31A2A1BAB59004E6A15 /* KAKAO_0523_방금그곡.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "KAKAO_0523_방금그곡.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7CB730442A2617F000A5F1FE /* 0530.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0530.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7CBBCB4C29BC28040020E727 /* 0311_KAKAO_실패율.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0311_KAKAO_실패율.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7CBBCB4E29BC28580020E727 /* 0311_KAKAO_다트 게임.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0311_KAKAO_다트 게임.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7CE58FE629ED42E700998674 /* 0418_KAKAO_K진수에서소수개수구하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0418_KAKAO_K진수에서소수개수구하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -213,6 +214,7 @@
 				7C7D06F72A09271800F6265F /* appleBug_0510 */,
 				7C37108A2A17579A00CC8969 /* appleBug_0520 */,
 				7C98D31B2A1BAB64004E6A15 /* appleBug_0523 */,
+				7CB730442A2617F000A5F1FE /* 0530.playground */,
 				7C3710882A17576400CC8969 /* Sources */,
 				A77A996329A0FFDB00A5B716 /* KeyInput.swift */,
 				A7EE07C429A0F8B9007AA0A3 /* main.swift */,
